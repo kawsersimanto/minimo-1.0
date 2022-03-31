@@ -1,0 +1,344 @@
+/* body start */
+/*Common start*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+
+}
+/*Common end*/
+/*header start*/
+header{
+
+    padding: 20px 0;
+    /*border: 1px solid;*/
+
+}
+.container{
+    
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+  /*  border: 1px solid red;*/
+}
+.logo{
+
+    width: 13%;
+    float: left;
+    margin-top: 18px;
+   /* border: 1px solid green;*/
+
+}
+
+.logo img{
+
+    width: 100%;
+
+}
+.menu{
+
+    width: 65%;
+    float: right;
+
+   /* border: 1px solid blue;*/
+}
+.menu ul{
+
+    float: right; 
+}
+.menu ul li{
+
+    list-style: none;
+    float: left;
+
+
+
+;
+    
+}
+.menu ul li a{
+    margin: 0px 60px;
+    padding: 22px 2px 3px;
+    display: inline-block;
+    font-size: 18px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s;
+
+
+    
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+    
+    
+}
+.menu ul li a:hover{
+
+    border-bottom: 1px solid #626262;
+    
+}
+
+/*header end*/
+/* body end */
+
+/* bannar start */
+
+.banner{
+
+
+}
+.b-img{
+
+}
+.b-img img{
+     width: 100%;
+}
+
+/* banner end */
+
+/* perfect start */
+
+.perfect{
+
+    padding: 100px 0;
+
+}
+.container-2{
+
+    margin: 0 auto;
+    width: 80%;
+    /* border: 1px solid;  */
+}
+.p-content{
+
+
+}
+.c-light{
+
+    font-size: 14px;
+    font-weight: 300px;
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+
+
+}
+.c-title{
+    margin: 15px 0 20px;
+    font-size: 30px;
+    font-weight: 400;
+    
+
+}
+.c-text{
+
+    line-height: 28px;
+
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+
+
+/* perfect end */
+
+/* blog start */
+    
+
+.blog{
+
+    padding-bottom: 40px;
+
+}
+.b-wrapper{
+
+    overflow: hidden;
+    
+}
+.single-b{
+
+    width: 47%;
+    /* border: 1px solid red; */
+    float: left;
+    margin-bottom: 60px;
+}
+.single-b:nth-child(even){
+
+    margin-left: 6%;
+
+}
+
+.s-img{
+
+    margin-bottom: 25px;
+}
+
+.s-img img{
+
+    width: 100%;
+
+}
+
+
+/* blog end */
+
+/* news start */
+
+.news{
+
+    height: 200px;
+    background-color: #f0f0f0;
+    padding: 70px 0;
+}
+
+.signup{
+
+    text-align: center;
+}
+.s-h1{
+
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 70px;
+    
+}
+.s-form{
+    position: relative;
+    width: 400px;
+    /*border: 1px solid;*/
+    
+    margin: 0 auto;
+}
+.s-form input{
+
+
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #626262;
+    width: 345px;
+    height: 45px; 
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+.s-form input:focus{
+
+    outline: 0;
+}
+.s-form button{
+
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+      
+
+}
+.s-form button:focus{
+
+    outline: 0;
+}
+.s-form button img{
+
+    
+}
+
+/*newsletter end*/
+
+/* blog-2 start */
+
+.blog-2{
+
+    padding-top: 100px;
+}
+
+/* blog-2 end */
+
+/* load more button */
+.load{
+
+text-align: center;
+padding: 100px 0;
+}
+.load button{
+
+    width: 160px;
+    height: 60px;
+    background: transparent;
+    border: 1px solid #626262;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+
+}
+.load button:hover{
+
+    background-color: #626262;
+    color: white;
+}
+
+
+
+/* load more button */
+
+/* footer start */
+
+
+footer {
+	background-color: #f0f0f0;
+	}
+.footer-menu {
+	float: left;
+	padding: 30px 0;
+}
+.footer-menu ul {
+	list-style: none;
+}
+.footer-menu ul li {
+	float: left;
+}
+.footer-menu ul li a {
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 14px;
+	color: #000000;
+}
+.icon{
+	float: right;
+	padding: 30px 0;
+}
+.icon ul{
+	list-style: none;
+}
+.icon ul li{
+	float: left;
+	padding: 0px 13px;
+}
+.icon ul li a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 14px;
+}
+.icon ul li:last-child a {
+	padding-right: 0px;
+}
+.icon ul li a img{}
+
+.footer-menu:hover{
+
+    border-bottom: 1px solid;
+}
+
+
+
+/* footer start */
